@@ -2,8 +2,8 @@ use std::io;
 
 fn main() {
     loop {                       
-        println!("Please select which way you'd like to convert");
-        println!("_____________________________________________");
+        println!("\nPlease select which way you'd like to convert");
+        println!("_____________________________________________\n");
         println!("1. Fahrenheit to Celsius");
         println!("2. Celsius to Fahrenheit");
 
@@ -15,7 +15,7 @@ fn main() {
             "1" => 1,
             "2" => 2,
             _ => {
-                println!("Please input 1 or 2!");
+                println!("Please input 1 or 2!\n");
                 continue;
             }
         };
